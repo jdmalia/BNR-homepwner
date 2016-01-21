@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		962C62DE1C505A6F007E7D45 /* BNRItemStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 962C62DD1C505A6F007E7D45 /* BNRItemStore.m */; };
 		963BE0891C385BE500313A01 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 963BE0881C385BE500313A01 /* main.m */; };
 		963BE08C1C385BE500313A01 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 963BE08B1C385BE500313A01 /* AppDelegate.m */; };
 		963BE08F1C385BE500313A01 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 963BE08E1C385BE500313A01 /* ViewController.m */; };
@@ -37,6 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		962C62DC1C505A6F007E7D45 /* BNRItemStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNRItemStore.h; sourceTree = "<group>"; };
+		962C62DD1C505A6F007E7D45 /* BNRItemStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNRItemStore.m; sourceTree = "<group>"; };
 		963BE0841C385BE500313A01 /* Homepwner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Homepwner.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		963BE0881C385BE500313A01 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		963BE08A1C385BE500313A01 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -117,6 +120,8 @@
 				963BE0981C385BE600313A01 /* Info.plist */,
 				963BE0871C385BE500313A01 /* Supporting Files */,
 				963BE0BD1C38753400313A01 /* BNRItem.h */,
+				962C62DC1C505A6F007E7D45 /* BNRItemStore.h */,
+				962C62DD1C505A6F007E7D45 /* BNRItemStore.m */,
 				963BE0BE1C38753400313A01 /* BNRItem.m */,
 				963BE0BA1C385D6300313A01 /* BNRItemsViewController.h */,
 				963BE0BB1C385D6300313A01 /* BNRItemsViewController.m */,
@@ -217,6 +222,7 @@
 				TargetAttributes = {
 					963BE0831C385BE500313A01 = {
 						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = CUNEL8BQ4Q;
 					};
 					963BE09C1C385BE600313A01 = {
 						CreatedOnToolsVersion = 7.2;
@@ -285,6 +291,7 @@
 				963BE0BF1C38753400313A01 /* BNRItem.m in Sources */,
 				963BE0BC1C385D6300313A01 /* BNRItemsViewController.m in Sources */,
 				963BE0891C385BE500313A01 /* main.m in Sources */,
+				962C62DE1C505A6F007E7D45 /* BNRItemStore.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -423,10 +430,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Homepwner/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.storytech.Homepwner;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -434,10 +444,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Homepwner/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.storytech.Homepwner;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -508,6 +521,7 @@
 				963BE0B31C385BE600313A01 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		963BE0B41C385BE600313A01 /* Build configuration list for PBXNativeTarget "HomepwnerTests" */ = {
 			isa = XCConfigurationList;
@@ -516,6 +530,7 @@
 				963BE0B61C385BE600313A01 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		963BE0B71C385BE600313A01 /* Build configuration list for PBXNativeTarget "HomepwnerUITests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +539,7 @@
 				963BE0B91C385BE600313A01 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

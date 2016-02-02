@@ -18,6 +18,7 @@
 		963BE0AD1C385BE600313A01 /* HomepwnerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 963BE0AC1C385BE600313A01 /* HomepwnerUITests.m */; };
 		963BE0BC1C385D6300313A01 /* BNRItemsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 963BE0BB1C385D6300313A01 /* BNRItemsViewController.m */; };
 		963BE0BF1C38753400313A01 /* BNRItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 963BE0BE1C38753400313A01 /* BNRItem.m */; };
+		96D1366A1C6161A2009C804D /* HeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 96D136691C6161A2009C804D /* HeaderView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +61,7 @@
 		963BE0BB1C385D6300313A01 /* BNRItemsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BNRItemsViewController.m; path = ../BNRItemsViewController.m; sourceTree = "<group>"; };
 		963BE0BD1C38753400313A01 /* BNRItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNRItem.h; sourceTree = "<group>"; };
 		963BE0BE1C38753400313A01 /* BNRItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNRItem.m; sourceTree = "<group>"; };
+		96D136691C6161A2009C804D /* HeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HeaderView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,6 +127,7 @@
 				963BE0BE1C38753400313A01 /* BNRItem.m */,
 				963BE0BA1C385D6300313A01 /* BNRItemsViewController.h */,
 				963BE0BB1C385D6300313A01 /* BNRItemsViewController.m */,
+				96D136691C6161A2009C804D /* HeaderView.xib */,
 			);
 			path = Homepwner;
 			sourceTree = "<group>";
@@ -262,6 +265,7 @@
 				963BE0971C385BE600313A01 /* LaunchScreen.storyboard in Resources */,
 				963BE0941C385BE600313A01 /* Assets.xcassets in Resources */,
 				963BE0921C385BE500313A01 /* Main.storyboard in Resources */,
+				96D1366A1C6161A2009C804D /* HeaderView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

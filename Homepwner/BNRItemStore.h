@@ -18,5 +18,6 @@
 // Notice that is a call method and prefixed with a + instead of -
 + (instancetype)sharedStore;
 - (BNRItem *)createItem;
+- (void)removeItem:(BNRItem *)item;
 
 @end

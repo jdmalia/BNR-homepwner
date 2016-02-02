@@ -66,4 +66,10 @@
     return item;
 }
 
+- (void)removeItem:(BNRItem *)item
+{
+    /* You could use NSMutableArray’s removeObject: method here instead of removeObjectIdenticalTo:, but consider the difference: removeObject: goes to each object in the array and sends it the message isEqual:. A class can implement this method to return YES or NO based on its own determination. For example, two BNRItem objects could be considered equal if they had the same valueInDollars. */
+    [self.privateItems removeObjectIdenticalTo:item];
+}
+
 @end
